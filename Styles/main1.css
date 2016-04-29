@@ -1,0 +1,189 @@
+/*** Normalized ***/
+
+
+#main_body {
+    margin: 0;
+    padding: 0;
+    background-position: top;
+    background-repeat: repeat-x;
+    
+}
+
+#container {
+    width: 724px;
+    margin: 0 auto 20px 0;
+}
+
+#header {
+    height: 185px;
+    padding: 0;
+}
+
+#logo {
+    position: absolute;
+    z-index: 1;
+    width: 200px;
+    height: 80px;
+    margin-left: 124px;
+    margin-top: 105px;
+}
+
+#key_visual {
+    position: absolute;
+    width: 724px;
+    height: 185px;
+    margin: 0;
+}
+
+#slogan {
+    padding: 0 0 10px 0;
+	width: 505px;
+}
+
+#layout_table {
+	border-collapse: collapse;
+}
+
+#left_column {
+	vertical-align: top;
+}
+
+#right_column {
+	vertical-align: top;
+}
+
+#sub_container1 {
+    width: 168px;
+    padding: 20px 0;
+}
+
+#sub_container2 {
+    margin: 0 0 0 0;
+    padding: 20px 0px 10px 22px;
+}
+
+#content_container {
+    padding: 0px;
+    margin: 0px;
+    border-width: 0px;
+    overflow: hidden;
+    width: 505px;
+}
+
+/* Begin Menu */
+
+#main_nav_container {
+    width: 153px;
+    margin-left: 15px;
+}
+
+#main_nav_list {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+#main_nav_list li {
+    clear: both;
+    padding: 0;
+}
+
+#main_nav_list a {
+    text-align: left;
+    height: 24px;
+    padding: 5px 0 0 10px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: left top;
+    overflow: hidden;
+}
+
+/* Begin SubMenu */
+
+#sub_nav_container {
+    padding: 0;
+    width: 135px;
+    margin: 0 0 0 5px;
+}
+
+#sub_nav_list {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#sub_nav_list li {
+    padding: 0;
+    margin: 0;
+}
+
+#sub_nav_list a {
+    text-align: left;
+    height: 19px;
+    display: block;
+    overflow: hidden;
+}
+
+#sub_nav_container a.sub_nav_active_item {
+    padding: 2px 0 0 5px;
+}
+
+#sub_nav_container a.sub_nav_item:hover {
+    padding: 2px 0 0 5px;
+}
+
+#sub_nav_container a.sub_nav_item {
+    padding: 2px 0 0 15px;
+}
+
+
+#footer_text {
+    height: 30px;
+    padding: 5px 0 0 190px;
+}
+
+.content {
+    margin: 5px 0 15px 0;
+    padding: 0;
+}
+
+.content table {
+    border-left: 1px solid;
+    border-top: 1px solid;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.content th {
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    padding: 3px 5px 3px 5px;
+    text-align: left;
+}
+
+.content td {
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    padding: 3px 5px 3px 5px;
+}
+
+.content button {
+    border: 1px solid;
+}
+
+.content textarea {
+    border: 1px solid;
+}
+
+.content input {
+    border: 1px solid;
+}
+
+.content fieldset {
+    border: 1px solid;
+}
+

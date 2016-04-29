@@ -1,0 +1,104 @@
+<%@ Master Language="VB" CodeFile="MasterPage.master.vb" Inherits="MasterPage"   %>
+<%@ Register Src="../Controles/Header.ascx" TagName="Header" TagPrefix="uc1" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" >
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<script type="text/javascript">
+function ValNumero(fld, e) {
+var strCheck = '0123456789.,-/';
+var whichCode = (window.Event) ? e.which : e.keyCode;
+var key;
+if (e && e.which) {
+e = e
+key = e.which
+}
+else {
+e = event
+key = e.keyCode
+}
+key = String.fromCharCode(key);
+if (strCheck.indexOf(key) == -1) return false; //valida que slo sea numerico o punto
+if (fld.value.indexOf(".") != -1 && key == ".") return false; //valida que slo permita un punto decimal
+if (fld.value == "" && key == ".") return false; //valida que no sea vacio o que no tenga un punto sin nmeros
+}
+</script>
+<head runat="server">
+    <title>Untitled Page</title>
+    <link href="../main.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+    <table width = "1000px" border="0" cellpadding ="0" cellspacing ="0">
+        <tr valign="top">
+            <td>
+            <table style="width: 1000px" border="0" cellpadding="0" cellspacing="0" >
+            <tr valign="top">
+                <td colspan="6" rowspan="6" style="vertical-align: middle; text-align: center" align="center" valign="middle">
+                    <uc1:Header ID="Header1" runat="server" />
+                </td>
+                <td style="background-color: buttonface; width: 250px;" align="center" colspan="2">
+                    <asp:Label ID="Label5" runat="server" Font-Bold="True" Font-Italic="False" ForeColor="Navy"
+                        Text="Panel de Ingreso"></asp:Label></td>
+            </tr>
+            <tr valign="top">
+                <td style="width: 125px;">
+                    <asp:Label ID="Label1" runat="server" Text="Fecha" Width="95%" CssClass="Regional"></asp:Label></td>
+                <td style="width: 125px;">
+                    <asp:Label ID="lbl_fecha" runat="server" Text="_"></asp:Label></td>
+            </tr>
+            <tr valign="top">
+                <td style="width: 125px;">
+                    <asp:Label ID="Label2" runat="server" Text="Usuario" Width="95%" CssClass="Regional"></asp:Label>
+                    </td>
+                <td style="width: 125px;">
+                    <asp:Label ID="lbl_Usuario" runat="server" Text="_"></asp:Label></td>
+            </tr>
+                <tr valign="top">
+                    <td style="width: 125px">
+                        <asp:Label ID="Label3" runat="server" Text="Perfil :" Width="95%" CssClass="Regional"></asp:Label></td>
+                    <td style="width: 125px">
+                        <asp:Label ID="lbl_perfil" runat="server" Text="_"></asp:Label></td>
+                </tr>
+                <tr valign="top">
+                    <td style="width: 125px">
+                    </td>
+                    <td style="width: 125px" align="center" rowspan="2">
+                        <asp:ImageButton ID="ImageButton1" runat="server" ImageUrl="~/Images/Power.jpg" ToolTip="Cerrar Sesión" /></td>
+                </tr>
+                <tr valign="top">
+                    <td style="width: 125px">
+                    <asp:Label ID="lblidUsuario" runat="server" Text="_" Visible="False"></asp:Label></td>
+                </tr>
+                <tr valign="top">
+                    <td colspan="8">
+                        <hr style="color: #ff6633" />
+                    
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <td colspan="8">
+        <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+            </asp:contentplaceholder>
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <td colspan="2" style="background-color: infobackground; width: 250px;">
+                    </td>
+                    <td colspan="4" style="background-color: buttonface; width: 500px;">
+                        <asp:Label ID="LblNombreUsuario" runat="server"></asp:Label>
+                        </td>
+                    <td style="background-color: infobackground; width: 125px;">
+                        <asp:Label ID="Label4" runat="server" Text="Regional :"></asp:Label></td>
+                    <td style="background-color: infobackground; width: 125px;">
+                        <asp:Label ID="lbl_regional" runat="server"></asp:Label></td>
+                </tr>
+        </table>
+            </td>
+        </tr>
+       
+        </table>
+        </div>
+    </form>
+</body>
+</html>

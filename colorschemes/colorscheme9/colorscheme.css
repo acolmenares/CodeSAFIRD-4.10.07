@@ -1,0 +1,75 @@
+/*** Normalized ***/
+
+#main_body {
+    background-color: #dfe69c;
+}
+
+#container {
+    background-color: #ffffff;
+}
+
+#footer_text {
+    background-image: url(images/static/bg_footer.gif);
+}
+
+/* Begin Content */
+
+.content {
+    color: #000000;
+}
+
+.content table {
+    border-color: #70781e;
+}
+
+.content th {
+    border-color: #70781e;
+    background-color: #e8edb7;
+    color: #70781e;
+}
+
+.content td {
+    border-color: #70781e;
+    color: #000000;
+}
+
+.content tr.odd {
+    background-color: #ffffff;
+}
+
+.content tr.even {
+    background-color: #eeeeee;
+}
+
+.content textarea {
+    border-color: #747064;
+}
+
+.content input {
+    border-color: #747064;
+}
+
+.content fieldset {
+    border-color: #747064;
+}
+
+.content button {
+    border-color: #747064;
+}
+
+.content button {
+    background-color: #efefef;
+}
+
+.content a {
+    color: #ff0400;
+}
+
+.content a:active {
+    color: #0066cc;
+}
+
+.content a:hover {
+    color: #0066cc;
+}
+

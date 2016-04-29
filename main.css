@@ -1,0 +1,635 @@
+/* Default CSS Stylesheet for a new Web Application project */
+/* me gusta este color #e6e6fa */
+
+BODY
+{
+    BACKGROUND-COLOR:  White ;
+    FONT-FAMILY: Arial, Verdana;
+    FONT-SIZE: 11px;
+    FONT-WEIGHT: normal;
+    LETTER-SPACING: normal;
+    TEXT-TRANSFORM: none;
+    WORD-SPACING: normal;
+    margin:0;
+    padding:0
+    
+}
+
+H1, H2, H3, H4, H5, TH, THEAD, TFOOT
+{
+    COLOR: #003366;
+}
+H1	{	
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:	2em;
+	font-weight:	700;
+	font-style:	normal;
+	text-decoration:	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	}	
+		
+H2	{	
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:	1.75em;
+	font-weight:	700;
+	font-style:	normal;
+	text-decoration:	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	}	
+		
+H3	{	
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:	1.58em;
+	font-weight:	500;
+	font-style:	normal;
+	text-decoration:	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	}	
+		
+H4	{	
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:	1.33em;
+	font-weight:	500;
+	text-decoration:	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	}	
+		
+H5, DT	{	
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:	1em;
+	font-weight:	700;
+	font-style:	normal;
+	text-decoration:	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	}	
+		
+H6	{	
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:	.8em;
+	font-weight:	700;
+	font-style:	normal;
+	text-decoration:	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	}	
+		
+TFOOT, THEAD	{	
+	font-size:	1em;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	font-family: Arial, Helvetica, sans-serif;
+	}	
+		
+TH	{	
+	vertical-align:	baseline;
+	font-size:	1em;
+	font-weight:	bold;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	font-family: Arial, Helvetica, sans-serif;
+	}	
+
+
+A:link	{	
+	text-decoration:	none;
+	color:	#3333cc;
+	}	
+		
+A:visited	{	
+	text-decoration:	none;
+	color:	#333399;
+	}	
+		
+A:active	{	
+	text-decoration:	none;
+	color:	#333399;
+	}	
+		
+A:hover	{	
+	text-decoration:	underline;
+	color:	#3333cc;
+	}
+	
+SMALL	{	
+	font-size:	.7em;
+	}	
+
+BIG	{	
+	font-size:	1.17em;
+	}	
+
+BLOCKQUOTE, PRE	{	
+	font-family:	Courier New, monospace;
+	}	
+	
+
+UL LI	{	
+	list-style-type:	square ;
+	}	
+
+UL LI LI	{	
+	list-style-type:	disc;
+	}	
+
+UL LI LI LI	{	
+	list-style-type:	circle;
+	}	
+	
+OL LI	{	
+	list-style-type:	decimal;
+	}	
+
+OL OL LI	{	
+	list-style-type:	lower-alpha;
+	}	
+
+OL OL OL LI	{	
+	list-style-type:	lower-roman;
+	}	
+
+IMG 	{
+	margin-top: 5px;
+	margin-left: 10px;
+	margin-right: 10px;
+	}
+	
+	
+	
+.datagrid_items
+{
+ 	color:#153b86;
+	background-color:White; 
+	text-align:Left;
+	vertical-align:middle;
+	font-family:Arial;
+	font-size:10px;
+	font-weight:	500;
+	text-decoration: 	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+}
+
+
+.Navegacion
+{
+	color: #804000;
+	background-color:White; 
+	text-align: center;
+	vertical-align:middle;
+	font-family:Arial, Verdana ;
+	font-size:10px;
+	font-weight:	500;
+	text-decoration:	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	}
+
+.Digitar
+{
+	color:#153b86;
+	background-color:White; 
+	text-align:Left;
+	vertical-align:middle;
+	font-family:Arial;
+	font-size:10px;
+	font-weight:	500;
+	text-decoration:	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	border-width :thin;
+}
+
+.Labelsdigitar
+{
+	color: Navy ;
+	background-color: Transparent ; 
+	text-align:Left;
+	vertical-align:middle;
+	font-family:Arial, Verdana;
+	font-size:11px;
+	font-weight:  	500;
+	text-decoration: 	none;
+	word-spacing: 	normal;
+	letter-spacing: 	normal;
+	text-transform: 	none;
+	border-style :groove ;
+	border-width : 1px;
+
+}
+
+.LabelsDigitarEsp
+{
+	color: #C00000 ;
+	background-color: Transparent ; 
+	text-align:Left;
+	vertical-align:middle;
+	font-family:Arial, Verdana;
+	font-size:11px;
+	font-weight:  	500;
+	text-decoration: 	none;
+	word-spacing: 	normal;
+	letter-spacing: 	normal;
+	text-transform: 	none;
+	border-style :groove ;
+	border-width : 1px;
+	width : 90%;
+
+}
+
+.Boton
+
+{
+	color: #804000;
+	background-color:White; 
+	text-align: center;
+	vertical-align:middle;
+	font-family:Arial, Verdana ;
+	font-size:10px;
+	font-weight:	500;
+	text-decoration:	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	border-style :groove; 
+	}
+
+.TitMensaje
+
+{
+	COLOR:  #FF8000;
+	background-color:#FFFFC0; 
+	text-align:Center;
+	vertical-align:middle;
+	font-family:Arial, Verdana;
+	font-size:X-Small;
+	font-weight: bold ;
+	text-decoration:	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	/*BORDER-LEFT-COLOR: green;
+	MARGIN-BOTTOM: 0mm; */
+}
+
+.TitHeaders
+{
+	color:Navy;
+	background:#6495ED;
+	border-style:solid;
+	border-width:1px;
+	font-size:xx-small;
+
+}
+
+
+.Regional
+{
+	color:#153b86;
+	background-color:#dbdbdb; 
+	text-align:center;
+	vertical-align: middle;
+	font-family:Arial;
+	font-size:12px;
+	font-weight:	500;
+	text-decoration:	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+}
+
+.Estado
+{
+	color:Orange;
+	background-color:White; 
+	text-align: right;
+	vertical-align:middle;
+	font-family:Arial;
+	font-size:12px;
+	font-weight:	500;
+	text-decoration:	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	font-weight:bold;
+	font-style:italic; 
+}
+.TitContenido
+{
+	color:#153b86;
+	background-color:White; 
+	text-align:Center;
+	vertical-align:middle;
+	font-family:Arial;
+	font-size:12px;
+	font-weight:	500;
+	text-decoration:	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	}
+.TitTitulo
+{
+	color:#153b86;
+	background-color:White; 
+	text-align:left;
+	vertical-align:middle;
+	font-family:Arial;
+	font-size:12px;
+	font-weight:	500;
+	text-decoration:	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	font-weight:bold;
+}
+
+.Validar
+{
+	color:Orange;
+	background-color:White; 
+	text-align: justify;
+	vertical-align:middle;
+	font-family:Arial;
+	font-size: 12px;
+	font-weight:500;
+	text-decoration:none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	font: icon;
+}
+.Botones
+{
+	background-Color:Navy;
+	border-bottom-width:thin;
+	cursor:hand;
+	font-family:12px;
+	color: White;
+	font-size:12px;
+	font-weight:bold ;
+	text-align:center ; 
+}
+.TitContenido_reducido
+{
+	color:#153b86;
+	background-color:White; 
+	text-align:Left;
+	vertical-align:middle;
+	font-family:Arial;
+	font-size:10px;
+	font-weight:	500;
+	text-decoration:	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+}
+.TitContenido_resaltado
+{
+	color:Orange;
+	background-color:White; 
+	text-align:Left;
+	vertical-align:middle;
+	font-family:Arial;
+	font-size:16px;
+	Font-Style:italic;
+	font-weight:bold;
+	text-decoration:	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+}
+.TitContenido_resaltado2
+{
+	color:White;
+	background-color:Orange; 
+	text-align:center;
+	vertical-align:middle;
+	font-family:Arial;
+	font-size:12px;
+	font-weight:	500;
+	text-decoration:	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+}
+
+.datagrid_hf
+{
+ 	color:White;
+	background-color:#153B86; 
+	text-align: center;
+	vertical-align:  middle;
+	font-family:Arial;
+	font-size:12px;
+	font-weight:	500;
+	text-decoration: 	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+
+}
+	
+.datagrid_calculado
+{
+ 	color:#153b86;
+	background-color:#dbdbdb; 
+	text-align:  left ;
+	vertical-align: bottom;
+	font-family:Arial;
+	font-size:12px;
+	font-weight:	500;
+	text-decoration: 	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+
+}	
+.Nota
+{
+	color:#153b86;
+	background-color:White; 
+	text-align:Left;
+	vertical-align:middle;
+	font-family:Arial;
+	font-size:10px;
+	font-weight:	500;
+	text-decoration:	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+}
+	
+	.Control_titulo
+{
+	color:#999999;
+	background-color:White; 
+	text-align:Center;
+	vertical-align:middle;
+	font-family:Arial;
+	font-size:19px;
+	font-weight:	900;
+	text-decoration:	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	    none ;
+
+}
+	.Subtitulo
+{
+	color:#153b86;
+	background-color:White; 
+	vertical-align:middle;
+	font-family:Arial;
+	font-size:12px;
+	font-weight:	900;
+	text-decoration:	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	    none ;
+
+}
+.Titulo_interior
+{
+	color:Orange;
+	background-color:White; 
+	text-align:Left;
+	vertical-align:middle;
+	font-family:Arial;
+	font-size:19px;
+	font-weight:	500;
+	text-decoration:	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+}
+.TitContenido_numerico
+{
+	color:#153b86;
+	background-color:White; 
+	text-align: right;
+	vertical-align:middle;
+	font-family:Arial;
+	font-size:11px;
+	font-weight:	500;
+	text-decoration:	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+}
+.TitTotales_datagrid
+{
+	color:White;
+	background-color:#006699; 
+	text-align: right;
+	vertical-align:middle;
+	font-family:Arial;
+	font-size:11px;
+	font-weight:	500;
+	text-decoration:	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+}
+
+.MenuInicio
+{
+ background-color: #DCDCDC;
+ color:Navy; 
+ font-size:x-small;
+ font-family:Microsoft Sans Serif;
+ vertical-align:middle;
+ font-weight:bold;  
+ border-bottom-style:groove;
+ border-right-style :groove;
+ height:auto;
+ width:auto;  
+ border-color:Silver; 
+ border-width:thin; 
+ font-family:Verdana; 
+ font-weight:bold; 
+}	
+
+.MenuStaticSelectedStyle
+{
+	background-color:#FFCC66;
+	border-width:thin;
+}
+
+.MenuStaticMenuItemStyle
+{
+	background-color:#DCDCDC;
+	border-width:thin;
+}
+
+.MenuDynamicMenuStyle
+{
+	background-color:#FFE0C0;
+	border-color:#E0E0E0;
+	border-style:groove;
+	border-width:2px;
+}
+
+.MenuDynamicSelectedStyle
+{
+	background-color:#FFCC66;
+	border-width:thin;
+}
+
+.MenuDynamicHoverStyle
+{
+	background-color:#E0E0E0; 
+	font-weight:bold;
+	color:White;
+	border-style:outset;
+	border-width:1px;
+	width:auto;
+}
+	
+.MenuStaticHoverStyle
+{
+	background-color:#D3D3D3;
+	font-weight:bold;
+	color:#DCDCDC;
+}	
+
+.modalBackground {
+	background-color:Gray;
+	filter:alpha(opacity=70);
+	opacity:0.7;
+}
+
+.modalPopup {
+	background-color:#ffffdd;
+	border-width:3px;
+	border-style:solid;
+	border-color:Gray;
+	padding:3px;
+	width:250px;
+}
+
+.drop01
+{
+  font-family : Verdana ;
+  font-style :normal ;
+  font-weight:lighter;
+  height :auto;
+  font-size:10px;
+  height:auto;
+  width: 94%;
+}	
